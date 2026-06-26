@@ -3,14 +3,18 @@
     margin: 0%;
 }
 .baseDiv{
-    display: flex;
+   display: flex;
+   gap: 30px;
+    
 }
+
 .box1{
     display: grid;
     grid-template-columns: repeat(4,100px) ;
     grid-template-rows: repeat(4,100px);
     column-gap: 5px;
     row-gap: 5px;
+    margin-top: 37px;
 
 }
 .item1{
@@ -81,11 +85,66 @@
 
 
 .box2{
+    margin-top: 40px;
+    display: inline;
     display: grid;
     grid-template-columns: repeat(4,100px);
     grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
 }
 .itemm1{
+    background-color: blueviolet;
+}
+.itemm2{
+    background-color: blueviolet;
+}
+.itemm3{
+    background-color: blueviolet;
+}
+.itemm4{
+    background-color: blueviolet;
+}
+
+
+.itemm5{
+    background-color: blueviolet;
+}
+.itemm6{
+    background-color: blueviolet;
+}
+.itemm7{
+    background-color: blueviolet;
+}
+.itemm8{
+    background-color: blueviolet;
+   grid-row-start: 2;
+   grid-row-end:4 ;
+   grid-column: 4;
+}
+
+
+.itemm9{
+    background-color: blueviolet;
+}
+.itemm10{
+    background-color: blueviolet;
+}
+.itemm11{
+    background-color: blueviolet;
+}
+
+
+.itemm12{
+    background-color: blueviolet;
+    grid-row:4 ;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+}
+.itemm13{
+    background-color: blueviolet;
+}
+.itemm14{
     background-color: blueviolet;
 }
 
