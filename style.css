@@ -1,0 +1,91 @@
+*
+{
+    margin: 0%;
+}
+.baseDiv{
+    display: flex;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(4,100px) ;
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+.item1{
+    background-color: palevioletred;
+}
+.item2{
+    background-color: palevioletred;
+}
+
+.item3{
+    background-color: palevioletred;
+}
+
+.item4{
+    background-color: palevioletred;
+}
+
+.item5{
+    background-color: palevioletred;
+}
+.item6{
+    background-color: palevioletred;
+}
+
+.item7{
+    background-color: palevioletred;
+}
+
+.item8{
+    background-color: palevioletred;
+}
+
+
+.item9{
+    background-color: palevioletred;
+}
+.item10{
+    background-color: palevioletred;
+}
+
+.item11{
+    background-color: palevioletred;
+}
+
+.item12{
+    background-color: palevioletred;
+}
+
+.item13{
+    background-color: palevioletred;
+}
+.item14{
+    background-color: palevioletred;
+}
+
+.item15{
+    background-color: palevioletred;
+}
+
+.item16{
+    background-color: palevioletred;
+}
+
+
+
+
+
+
+
+.box2{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+}
+.itemm1{
+    background-color: blueviolet;
+}
+
