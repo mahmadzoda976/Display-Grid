@@ -14,8 +14,8 @@
     display: grid;
     grid-template-columns: repeat(4,100px) ;
     grid-template-rows: repeat(4,100px);
-    column-gap: 5px;
-    row-gap: 5px;
+    column-gap: 15px;
+    row-gap: 15px;
     margin-top: 37px;
 
 }
@@ -597,4 +597,104 @@
     background-color: palevioletred;
      border-radius: 10px;
 }
+
+.box10{
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 25px;
+    row-gap: 40px;
+}
+.prp1{
+    background-color: rgb(66, 49, 78);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    transform:rotate(132deg);
+    width: 170px;
+    height:170px;
+}
+.prp2{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+.prp3{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+
+.prp4{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+.prp5{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+
+.prp6{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+.prp7{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+
+.prp8{
+    background-color: rgb(66, 49, 78);
+    transform: rotate(135deg);
+     grid-row-start: 3;
+     
+     grid-column-start: 3;
+     grid-column-end:5 ;
+     width:130px;
+     height:120px;
+
+  
+}
+
+
+.prp9{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+     column-gap: 70px;
+}
+.prp10{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+
+.prp11{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+.prp12{
+    background-color: rgb(66, 49, 78);
+     transform:rotate(132deg);
+     width:80px;
+     height:80px;
+}
+
 
