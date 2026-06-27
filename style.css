@@ -518,3 +518,83 @@
 .vio12{
     background-color: rgb(172, 112, 229);
 }
+
+
+.box9{
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.or1{
+    background-color: palevioletred;
+    border-radius: 10px;
+
+}
+.or2{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+.or3{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+.or4{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+
+.or5{
+    background-color: palevioletred;
+ border-radius: 10px;
+}
+.or6{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+.or7{
+    background-color: palevioletred;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 3;
+     border-radius: 10px;
+}
+.or8{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+
+.or9{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+
+.or10{
+    background-color: palevioletred;
+ border-radius: 10px;
+}
+.or11{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+
+.or12{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+
+.or13{
+    background-color: palevioletred;
+ border-radius: 10px;
+ grid-row-start: 4;
+ grid-column-start: 2;
+ grid-column-end: 4;
+}
+.or14{
+    background-color: palevioletred;
+     border-radius: 10px;
+}
+
