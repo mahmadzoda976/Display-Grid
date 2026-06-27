@@ -604,8 +604,8 @@
     display: grid;
     grid-template-columns: repeat(4,100px);
     grid-template-rows: repeat(4,100px);
-    column-gap: 25px;
-    row-gap: 40px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 .prp1{
     background-color: rgb(66, 49, 78);
@@ -663,8 +663,10 @@
      
      grid-column-start: 3;
      grid-column-end:5 ;
-     width:130px;
+     width:120px;
      height:120px;
+     margin-left: 35px;
+     margin-top: -10px;
 
   
 }
@@ -781,6 +783,84 @@
      border-radius: 10px;
 }
 
+.box12{
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.pnk1{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk2{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk3{
+    background-color: indigo;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column: 3;
+     border-radius: 10px;
+}
+.pnk4{
+    background-color: indigo;
+     border-radius: 10px;
+}
+
+.pnk5{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk6{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk7{
+    background-color: indigo;
+     border-radius: 10px;
+}
+
+.pnk8{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk9{
+    background-color: indigo;
+     border-radius: 10px;
+     grid-row: 3;
+     grid-column-start: 2;
+     grid-column-end: 4;
+}
+.pnk10{
+    background-color: indigo;
+     border-radius: 10px;
+}
+
+
+
+.pnk11{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk12{
+    background-color: indigo;
+     border-radius: 10px;
+}
+.pnk13{
+    background-color: indigo;
+     border-radius: 10px;
+}
+
+.pnk14{
+    background-color: indigo;
+     border-radius: 10px;
+}
 
 
 
