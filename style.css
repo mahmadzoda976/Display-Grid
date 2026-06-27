@@ -412,5 +412,55 @@
     border-bottom-left-radius: 20px;
 }
 
+.box7{
+    margin-top: 40px;
 
-
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.light1{
+    background-color: aquamarine;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.light2{
+    background-color: aquamarine;
+}
+.light3{
+    background-color: aquamarine;
+}
+.light4{
+    background-color: aquamarine;
+}
+.light5{
+    background-color: aquamarine;
+}
+.light6{
+    background-color: aquamarine;
+}
+.light7{
+    background-color: aquamarine;
+}
+.light8{
+    background-color: aquamarine;
+}
+.light9{
+    background-color: aquamarine;
+}
+.light10{
+    background-color: aquamarine;
+}
+.light11{
+    background-color: aquamarine;
+}
+.light12{
+    background-color: aquamarine;
+}
+.light13{
+    background-color: aquamarine;
+}
