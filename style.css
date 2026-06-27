@@ -464,3 +464,57 @@
 .light13{
     background-color: aquamarine;
 }
+.box8{
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.vio1{
+    background-color: rgb(172, 112, 229);
+}
+.vio2{
+    background-color: rgb(172, 112, 229);
+}
+.vio3{
+    background-color: rgb(172, 112, 229);
+}
+.vio4{
+    background-color: rgb(172, 112, 229);
+}
+
+.vio5{
+    background-color: rgb(172, 112, 229);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.vio6{
+    background-color: rgb(172, 112, 229);
+}
+.vio7{
+    background-color: rgb(172, 112, 229);
+}
+.vio8{
+    background-color: rgb(172, 112, 229);
+}
+.vio9{
+    background-color: rgb(172, 112, 229);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column: 4;
+}
+
+.vio10{
+    background-color: rgb(172, 112, 229);
+}
+.vio11{
+    background-color: rgb(172, 112, 229);
+}
+.vio12{
+    background-color: rgb(172, 112, 229);
+}
