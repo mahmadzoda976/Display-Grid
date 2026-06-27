@@ -5,6 +5,7 @@
 .baseDiv{
    display: flex;
    gap: 30px;
+   flex-wrap: wrap;
     
 }
 
@@ -213,3 +214,69 @@
 .itemmm14{
     background-color: darkolivegreen;
 }
+
+.box4{
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.ov1{
+    background-color: rgb(111, 135, 71);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 45px;
+}
+.ov2{
+     background-color: rgb(153, 172, 122);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 45px;
+}
+.ov3{
+    background-color: rgb(153, 172, 122) ;
+     border-radius: 40px;
+}
+.ov4{
+    background-color: rgb(111, 135, 71);
+     border-radius: 40px;
+}
+
+.ov5{
+    background-color: rgb(153, 172, 122) ;
+     border-radius: 40px;
+}
+.ov6{
+    background-color: rgb(111, 135, 71);
+     border-radius: 40px;
+}
+.ov7{
+    background-color: rgb(153, 172, 122) ;
+     border-radius: 40px;
+}
+.ov8{
+    background-color: rgb(111, 135, 71);
+     border-radius: 40px;
+}
+.ov9{
+    background-color: rgb(111, 135, 71);
+     border-radius: 80px;
+     grid-row-start: 3;
+     grid-row-end: 5;
+     grid-column-start: 3;
+     grid-column-end: 5;
+}
+
+
+.ov10{
+    background-color: rgb(111, 135, 71);
+     border-radius: 40px;
+}
+.ov11{
+    background-color: rgb(153, 172, 122) ;
+     border-radius: 40px;
+}
+
