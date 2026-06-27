@@ -4,8 +4,9 @@
 }
 .baseDiv{
    display: flex;
-   gap: 30px;
+   gap: 40px;
    flex-wrap: wrap;
+   justify-content: center;
     
 }
 
@@ -279,4 +280,57 @@
     background-color: rgb(153, 172, 122) ;
      border-radius: 40px;
 }
+
+
+.box5{
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(4,100px);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+.bwn1{
+    background-color: rgb(93, 1, 1);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.bwn2{
+        background-color: rgb(93, 1, 1);
+        grid-row-start: 1;
+        grid-column-start: 3;
+        grid-column-end: 5;
+}
+.bwn3{
+    background-color:rgb(93, 1, 1) ;
+}
+.bwn4{
+    background-color:rgb(93, 1, 1) ;
+}
+.bwn5{
+    background-color:rgb(93, 1, 1) ;
+}
+.bwn6{
+        background-color: rgb(93, 1, 1);
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 4;
+}
+
+
+.bwn7{
+    background-color:rgb(93, 1, 1) ;
+}
+.bwn8{
+    background-color:rgb(93, 1, 1) ;
+}
+.bwn9{
+    background-color:rgb(93, 1, 1) ;
+}
+
+
 
